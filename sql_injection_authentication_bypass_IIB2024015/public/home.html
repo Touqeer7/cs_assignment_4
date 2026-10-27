@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Home | Campus Portal</title><link rel="icon" href="data:,"><link rel="stylesheet" href="/style.css"></head>
+<body>
+<header class="site-header"><div class="header-inner"><a class="brand" href="/home"><span class="brand-mark">CP</span><span>Campus Portal<small>IIIT Allahabad</small></span></a><div class="header-actions"><span class="header-name">{{name}}</span><form method="post" action="/logout"><button class="logout" type="submit">Logout <span aria-hidden="true">↗</span></button></form></div></div></header>
+<main class="home-main"><div class="welcome"><span class="small-label">HOME</span><h1>Welcome, {{firstName}}.</h1><p>Your profile and the latest campus announcements, all in one place.</p></div>
+<div class="home-grid"><section class="profile-card" aria-labelledby="profile-title"><div class="section-heading"><h2 id="profile-title">My profile</h2><span class="profile-status">Active</span></div><div class="profile-intro"><span class="avatar" aria-hidden="true">{{initial}}</span><h3>{{name}}</h3><span class="role-badge">{{role}}</span></div><dl class="profile-details"><div><dt>Full name</dt><dd>{{name}}</dd></div><div><dt>Username</dt><dd>{{username}}</dd></div><div><dt>Email address</dt><dd>{{email}}</dd></div><div><dt>Department</dt><dd>{{department}}</dd></div><div><dt>Role</dt><dd>{{role}}</dd></div></dl></section>
+<section class="notices-card" aria-labelledby="notice-title"><div class="section-heading"><div><h2 id="notice-title">Notice board</h2><p>Latest updates from around campus</p></div><span class="notice-count">{{count}}</span></div><div class="notice-list">{{notices}}</div></section></div>
+<p class="sample-note">Campus announcements shown here are sample notices for this application.</p></main>
+<footer class="home-footer">Campus Portal · IIIT Allahabad</footer>
+</body></html>
