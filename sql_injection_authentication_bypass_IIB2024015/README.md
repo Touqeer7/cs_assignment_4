@@ -1,7 +1,7 @@
 # SQL Injection Authentication Bypass Demonstration & Mitigation
 
-**Student name:** YOUR_NAME  
-**Roll number:** YOUR_ROLL_NUMBER  
+**Student name:** MALIK TOUQEER  
+**Roll number:** IIB2024015  
 **Course:** IT-30001 Web Server Security  
 **Variant:** SQL Injection — Authentication Bypass
 
